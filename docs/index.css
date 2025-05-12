@@ -80,3 +80,14 @@ img.flip {
 .hieroglyphic:hover img {
   opacity: 1;
 }
+
+/* Reduce container width and set a max width for lines */
+.container {
+    width: unset;
+}
+img {
+    width: 100%;
+}
+.line {
+    max-width: 1200px;
+}
